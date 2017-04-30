@@ -1,0 +1,14 @@
+[Unit]
+Description=Jetty aplication server
+
+[Service]
+PIDFile=/var/run/jetty.pid
+WorkingDirectory=/home/username/.bin/jetty9/
+User=username
+Group=usergroup
+
+ExecStart=/bin/bash /home/username/.bin/jetty9/run.sh
+TimeoutSec=1000
+
+[Install]
+WantedBy=multi-user.target 
