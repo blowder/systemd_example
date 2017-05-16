@@ -51,5 +51,5 @@ For enable run on boot just execute command:
 For disable run on boot execute command:
 * systemctl disable jetty
  
-# For details
+# For details:
 * https://www.freedesktop.org/wiki/Software/systemd/
